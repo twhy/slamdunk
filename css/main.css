@@ -1,20 +1,20 @@
 .btn {
   border-radius: 2px !important; }
 
-.sakula {
+.slamdunk {
   min-width: 320px;
   padding-bottom: 40px; }
-  .sakula .navbar {
+  .slamdunk .navbar {
     width: 100%;
     height: 50px;
     border-bottom: 0;
     margin-bottom: 0;
     position: absolute; }
-    .sakula .navbar .nav a {
+    .slamdunk .navbar .nav a {
       color: #fff;
       font-size: 18px;
       position: relative; }
-      .sakula .navbar .nav a::after {
+      .slamdunk .navbar .nav a::after {
         top: 0;
         left: 0;
         content: '';
@@ -23,49 +23,49 @@
         display: block;
         position: absolute;
         background: url(../images/shine.png) -60px -80px no-repeat; }
-      .sakula .navbar .nav a:hover::after {
+      .slamdunk .navbar .nav a:hover::after {
         transition: .8s;
         background-position: 100px 100px; }
-      .sakula .navbar .nav a:hover, .sakula .navbar .nav a:focus {
+      .slamdunk .navbar .nav a:hover, .slamdunk .navbar .nav a:focus {
         background: none; }
       @media (max-width: 767px) {
-        .sakula .navbar .nav a {
+        .slamdunk .navbar .nav a {
           text-align: right; }
-          .sakula .navbar .nav a::after {
+          .slamdunk .navbar .nav a::after {
             left: auto;
             right: 0 !important;
             height: 40px; } }
-  .sakula .navbar-brand {
+  .slamdunk .navbar-brand {
     padding: 10px 15px; }
-    .sakula .navbar-brand > img {
+    .slamdunk .navbar-brand > img {
       height: 100px; }
     @media (max-width: 767px) {
-      .sakula .navbar-brand {
+      .slamdunk .navbar-brand {
         padding: 5px 10px; }
-        .sakula .navbar-brand > img {
+        .slamdunk .navbar-brand > img {
           height: 50px; } }
-  .sakula .navbar-toggle {
+  .slamdunk .navbar-toggle {
     border-color: #fff; }
-    .sakula .navbar-toggle .icon-bar {
+    .slamdunk .navbar-toggle .icon-bar {
       background: #fff; }
-  .sakula .content .jumbotron {
+  .slamdunk .content .jumbotron {
     color: #fff;
     background: transparent;
     background: url(../images/rebound.jpg) no-repeat;
     background-size: 100%;
     padding-bottom: 130px; }
     @media (max-width: 767px) {
-      .sakula .content .jumbotron {
+      .slamdunk .content .jumbotron {
         padding-bottom: 30px !important;
         margin-bottom: 20px !important; } }
-    .sakula .content .jumbotron .btn-join {
+    .slamdunk .content .jumbotron .btn-join {
       width: 160px; }
       @media (max-width: 500px) {
-        .sakula .content .jumbotron .btn-join {
+        .slamdunk .content .jumbotron .btn-join {
           width: 110px;
           font-size: 16px !important;
           padding: 6px 12px !important; } }
-    .sakula .content .jumbotron h1 {
+    .slamdunk .content .jumbotron h1 {
       opacity: .9;
       font-size: 120px;
       letter-spacing: 5px;
@@ -74,16 +74,16 @@
       font-weight: 400 !important;
       text-shadow: 0 5px 20px #000; }
       @media (max-width: 767px) {
-        .sakula .content .jumbotron h1 {
+        .slamdunk .content .jumbotron h1 {
           font-size: 90px;
           margin-top: 80px;
           margin-bottom: 40px; } }
       @media (max-width: 500px) {
-        .sakula .content .jumbotron h1 {
+        .slamdunk .content .jumbotron h1 {
           font-size: 60px;
           margin-top: 50px;
           margin-bottom: 30px; } }
-  .sakula .players .player {
+  .slamdunk .players .player {
     height: 260px;
     overflow: hidden;
     position: relative;
@@ -95,34 +95,34 @@
     background-clip: content-box;
     background-repeat: no-repeat;
     background-position: 0 0, 0 0; }
-    .sakula .players .player:hover {
+    .slamdunk .players .player:hover {
       background-position: center 500px, 0 0; }
     @media (max-width: 1200px) {
-      .sakula .players .player {
+      .slamdunk .players .player {
         height: 190px; } }
     @media (max-width: 767px) {
-      .sakula .players .player {
+      .slamdunk .players .player {
         height: 400px; } }
     @media (max-width: 500px) {
-      .sakula .players .player {
+      .slamdunk .players .player {
         height: 230px;
         margin: 10px 0; } }
-    .sakula .players .player .name {
+    .slamdunk .players .player .name {
       top: 10px;
       left: 15px;
       color: #fff;
       font-size: 24px;
       text-shadow: 0 1px 1px #000;
       position: absolute; }
-    .sakula .players .player.lc {
+    .slamdunk .players .player.lc {
       background-image: url(../images/lc-dunk.gif), url(../images/lc-casual.jpg); }
-    .sakula .players .player.ym {
+    .slamdunk .players .player.ym {
       background-image: url(../images/ym-dunk.gif), url(../images/ymtc.jpg); }
-    .sakula .players .player.cm {
+    .slamdunk .players .player.cm {
       background-image: url(../images/cm-casual.jpg), url(../images/cmcb.jpg); }
-    .sakula .players .player.sj {
+    .slamdunk .players .player.sj {
       background-image: url(../images/sj.jpg), url(../images/sj2.jpg); }
-    .sakula .players .player.gc {
+    .slamdunk .players .player.gc {
       background-image: url(../images/gc.gif), url(../images/gc.jpg); }
-    .sakula .players .player.mm {
+    .slamdunk .players .player.mm {
       background-image: url(../images/mm.jpg), url(../images/mm2.jpg); }
