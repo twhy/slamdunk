@@ -15,13 +15,13 @@
       background-position: center 500px, 0 0;
     }
     @media #{$device-laptop} {
-      height: 180px;
+      height: 190px;
     }
     @media #{$device-small} {
       height: 400px;
     }
     @media #{$device-phone} {
-      height: 220px;
+      height: 230px;
       margin: 10px 0;
     }
     .name {
