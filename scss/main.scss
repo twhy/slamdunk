@@ -1,0 +1,10 @@
+@import "bootstrap-custom";
+@import "variables";
+
+.sakula {
+  min-width: 320px;
+  padding-bottom: 40px;
+  @import "navbar";
+  @import "content";
+  @import "players";
+}

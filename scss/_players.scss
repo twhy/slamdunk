@@ -1,0 +1,54 @@
+.players {
+  .player {
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+    background-size: 100%;
+    margin: 15px 0;
+    transition: .6s;
+    cursor: pointer;
+    background-clip: content-box;
+    background-repeat: no-repeat;
+    background-position: 0 0, 0 0;
+    &:hover {
+      background-position: center 500px, 0 0;
+    }
+    @media #{$device-laptop} {
+      height: 180px;
+    }
+    @media #{$device-small} {
+      height: 400px;
+    }
+    @media #{$device-phone} {
+      height: 220px;
+      margin: 10px 0;
+    }
+    .name {
+      top: 10px;
+      left: 15px;
+      color: #fff;
+      font-size: 24px;
+      text-shadow: 0 1px 1px #000;
+      position: absolute;
+    }
+    &.lc {
+      background-image: url(../images/lc-dunk.gif), url(../images/lc-casual.jpg);
+    }
+    &.ym {
+      background-image: url(../images/ym-dunk.gif), url(../images/ymtc.jpg);
+    }
+    &.cm {
+      background-image: url(../images/cm-casual.jpg), url(../images/cmcb.jpg);
+    }
+    &.sj {
+      background-image: url(../images/sj.jpg), url(../images/sj2.jpg);
+    }
+    &.gc {
+      background-image: url(../images/gc.gif), url(../images/gc.jpg);
+    }
+    &.mm {
+      background-image: url(../images/mm.jpg), url(../images/mm2.jpg);
+    }
+  }
+}
