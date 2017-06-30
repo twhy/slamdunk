@@ -14,13 +14,13 @@
     &:hover {
       background-position: center 500px, 0 0;
     }
-    @media #{$device-laptop} {
+    @include on-device(laptop) {
       height: 190px;
     }
-    @media #{$device-small} {
+    @include on-device(note) {
       height: 340px;
     }
-    @media #{$device-phone} {
+    @include on-device(phone) {
       height: 230px;
       margin: 10px 0;
     }

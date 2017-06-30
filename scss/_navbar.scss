@@ -26,7 +26,7 @@
     &:focus {
       background: none;
     }
-    @media #{$device-small} {
+    @include on-device(note) {
       text-align: right;
       &::after {
         left: auto;
@@ -42,7 +42,7 @@
   > img {
     height: 100px;
   }
-  @media #{$device-small} {
+  @include on-device(note) {
     padding: 5px 10px;
     > img {
       height: 50px;

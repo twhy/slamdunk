@@ -1,0 +1,19 @@
+@mixin on-device($device) {
+  @if $device == phone {
+    @media #{$device-phone} {
+      @content
+    }
+  } @else if $device == note {
+    @media #{$device-note} {
+      @content
+    }
+  } @else if $device == pad {
+    @media #{$device-pad} {
+      @content
+    } 
+  } @else if $device == laptop {
+    @media #{$device-laptop} {
+      @content
+    } 
+  }
+}

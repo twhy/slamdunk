@@ -1,4 +1,6 @@
-$device-small: (max-width: 767px);
+$border-radius: 2px !default;
+
 $device-phone: (max-width: 500px);
+$device-note: (max-width: 767px);
 $device-pad: (min-width: 768px);
 $device-laptop: (max-width: 1200px);

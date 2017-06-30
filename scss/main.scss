@@ -1,5 +1,6 @@
-@import "bootstrap-custom";
 @import "variables";
+@import "mixin";
+@import "bootstrap-custom";
 
 .slamdunk {
   min-width: 320px;
