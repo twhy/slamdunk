@@ -66,12 +66,11 @@
           font-size: 16px !important;
           padding: 6px 12px !important; } }
     .slamdunk .content .jumbotron h1 {
-      opacity: .9;
       font-size: 120px;
+      font-weight: 300;
       letter-spacing: 5px;
       margin-top: 100px;
       margin-bottom: 60px;
-      font-weight: 400 !important;
       text-shadow: 0 5px 20px #000; }
       @media (max-width: 767px) {
         .slamdunk .content .jumbotron h1 {
@@ -82,6 +81,7 @@
         .slamdunk .content .jumbotron h1 {
           font-size: 60px;
           margin-top: 50px;
+          letter-spacing: 0;
           margin-bottom: 30px; } }
   .slamdunk .players .player {
     height: 260px;
