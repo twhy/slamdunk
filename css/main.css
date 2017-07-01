@@ -115,14 +115,14 @@
       text-shadow: 0 1px 1px #000;
       position: absolute; }
     .slamdunk .players .player.lc {
-      background-image: url(../images/lc-dunk.gif), url(../images/lc-casual.jpg); }
+      background-image: url("../images/lc-dunk.gif"), url("../images/lc-casual.jpg"); }
     .slamdunk .players .player.ym {
-      background-image: url(../images/ym-dunk.gif), url(../images/ymtc.jpg); }
+      background-image: url("../images/ym-dunk.gif"), url("../images/ymtc.jpg"); }
     .slamdunk .players .player.cm {
-      background-image: url(../images/cm-casual.jpg), url(../images/cmcb.jpg); }
+      background-image: url("../images/cm-casual.jpg"), url("../images/cmcb.jpg"); }
     .slamdunk .players .player.sj {
-      background-image: url(../images/sj.jpg), url(../images/sj2.jpg); }
+      background-image: url("../images/sj.jpg"), url("../images/sj2.jpg"); }
     .slamdunk .players .player.gc {
-      background-image: url(../images/gc.gif), url(../images/gc.jpg); }
+      background-image: url("../images/gc.gif"), url("../images/gc.jpg"); }
     .slamdunk .players .player.mm {
-      background-image: url(../images/mm.jpg), url(../images/mm2.jpg); }
+      background-image: url("../images/mm.jpg"), url("../images/mm2.jpg"); }

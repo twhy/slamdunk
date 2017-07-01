@@ -32,23 +32,39 @@
       text-shadow: 0 1px 1px #000;
       position: absolute;
     }
-    &.lc {
-      background-image: url(../images/lc-dunk.gif), url(../images/lc-casual.jpg);
+
+    $players: (
+      lc: ("lc-dunk.gif" "lc-casual.jpg"),
+      ym: ("ym-dunk.gif" "ymtc.jpg"),
+      cm: ("cm-casual.jpg" "cmcb.jpg"),
+      sj: ("sj.jpg" "sj2.jpg"),
+      gc: ("gc.gif" "gc.jpg"),
+      mm: ("mm.jpg" "mm2.jpg")
+    );
+
+    @each $name, $images in $players {
+      &.#{$name} {
+        background-image: url("../images/#{nth($images, 1)}"), url("../images/#{nth($images, 2)}");
+      }
     }
-    &.ym {
-      background-image: url(../images/ym-dunk.gif), url(../images/ymtc.jpg);
-    }
-    &.cm {
-      background-image: url(../images/cm-casual.jpg), url(../images/cmcb.jpg);
-    }
-    &.sj {
-      background-image: url(../images/sj.jpg), url(../images/sj2.jpg);
-    }
-    &.gc {
-      background-image: url(../images/gc.gif), url(../images/gc.jpg);
-    }
-    &.mm {
-      background-image: url(../images/mm.jpg), url(../images/mm2.jpg);
-    }
+    
+    // &.lc {
+    //   background-image: url(../images/lc-dunk.gif), url(../images/lc-casual.jpg);
+    // }
+    // &.ym {
+    //   background-image: url(../images/ym-dunk.gif), url(../images/ymtc.jpg);
+    // }
+    // &.cm {
+    //   background-image: url(../images/cm-casual.jpg), url(../images/cmcb.jpg);
+    // }
+    // &.sj {
+    //   background-image: url(../images/sj.jpg), url(../images/sj2.jpg);
+    // }
+    // &.gc {
+    //   background-image: url(../images/gc.gif), url(../images/gc.jpg);
+    // }
+    // &.mm {
+    //   background-image: url(../images/mm.jpg), url(../images/mm2.jpg);
+    // }
   }
 }
